@@ -20,6 +20,9 @@ const Header = () => {
                 <li>
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
+                <li className="mt-3 md:mt-0">
+                    <Link to="/admin" className="border px-3 py-2 rounded-lg cursor-pointer hover:text-white hover:bg-blue-600 hover:no-underline" style={{textDecoration: "none"}}>Admin Login</Link>
+                </li>
             </ul>
         </div>
     );
