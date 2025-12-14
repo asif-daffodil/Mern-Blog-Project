@@ -4,7 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     return (
-        <div className="container mx-auto p-4 flex items-center justify-between flex-wrap md:flex-nowrap px-5 md:px-0">
+        <div className="container mx-auto py-4 flex items-center justify-between flex-wrap md:flex-nowrap px-5 md:px-0">
             <Link to="/" className="text-2xl md:text-4xl text-blue-600 font-bold">Logo</Link>
             <label className="md:hidden cursor-pointer peer ml-auto" htmlFor="menu-toggle">
                 <FontAwesomeIcon icon={faBars} />
